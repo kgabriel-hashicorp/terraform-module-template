@@ -25,7 +25,6 @@ jobs:
             docs
             ci
             chore
-            BREAKING CHANGE
           requireScope: false
           subjectPattern: ^[A-Z].+$
           subjectPatternError: |
