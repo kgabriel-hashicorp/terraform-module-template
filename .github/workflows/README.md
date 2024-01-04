@@ -39,6 +39,8 @@ plugin "terraform" {
   preset  = "all"
 }
 ```
+
+Note: terraform_required_version is disabled since this is a module.
   
 **Recommended Rules**
 
