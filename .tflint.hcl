@@ -25,6 +25,11 @@ rule "terraform_required_version" {
   enabled = false
 }
 
+# Enforces version for required_providers
+rule "terraform_required_providers" {
+  enabled = false
+}
+
 # Enforces naming conventions for resources, data sources, etc.
 rule "terraform_naming_convention" {
   enabled = true
