@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/kgabriel-hashicorp/terraform-module-template/compare/v1.0.1...v1.1.0) (2024-01-04)
+
+
+### Features
+
+* Disable terraform_required_providers lint ([1a86fa1](https://github.com/kgabriel-hashicorp/terraform-module-template/commit/1a86fa180d601e25b7b0d803b0d28bfbe9611397))
+* Remove codeowners in template ([e376a07](https://github.com/kgabriel-hashicorp/terraform-module-template/commit/e376a07e779e54b629d0d38968f5b8f75ae589b9))
+* remove dependabot.yml ([05a3a93](https://github.com/kgabriel-hashicorp/terraform-module-template/commit/05a3a934407dd408fa99162f183b138457827cbb))
+
+
+### Documentation
+
+* Update readme documentation ([1a4c22f](https://github.com/kgabriel-hashicorp/terraform-module-template/commit/1a4c22f5e781c35ed859c97226b22b1fd6d699b9))
+
 ## [1.0.1](https://github.com/kgabriel-hashicorp/terraform-module-template/compare/v1.0.0...v1.0.1) (2024-01-04)
 
 
