@@ -125,12 +125,16 @@ prefix: Title (the subect starts with an uppercase character)
 
 Only runs after PR is merged to main.
 
-We use the following action
-semantic-release-action
+We use the following action and plugins:
 
-commitanalyzer -  make sure the commit messages are correct
-https://github.com/semantic-release/commit-analyzer?tab=readme-ov-file#releaserules
+* [semantic-release-action](https://github.com/cycjimmy/semantic-release-action) - Creates releases based on commits using ConventionalCommits.
+  
+  * Rules set up under `.releaserc.json` 
+    * `plugins>@semantic-release/commit-analyzer>releaseRules`
 
-release-notes-generator
-https://github.com/semantic-release/release-notes-generator
+* [commitanalyzer](https://github.com/semantic-release/commit-analyzer?tab=readme-ov-file#releaserules) -  make sure the commit messages are correct
+* [release-notes-generator](https://github.com/semantic-release/release-notes-generator) - Creates a CHANGELOG.md in the root directory documenting the changes merged.
+  * Rules set up under `.releaserc.json` 
+    * `plugins>@semantic-release/release-notes-generator>presetConfig>types`
+The configuration for these is `.releaserc.json`
 

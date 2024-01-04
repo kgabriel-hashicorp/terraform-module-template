@@ -3,7 +3,7 @@
 This repository contains the standards we recommend having for a root module in Terraform.
 
 ## Usage
-This terraform module will create an S3 Bucket.
+What will be this module for?
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
